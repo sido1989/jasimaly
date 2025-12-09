@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasimaly Taxi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ffcc00;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px #000;
+            font-size: 2.2rem;
+            text-align: center;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-box {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .booking-form {
+            background: white;
+            padding: 30px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background: #ffcc00;
+            border: none;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jasimaly Taxi</h1>
+        <p>Fast • Safe • Reliable</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Your Ride Is Just One Click Away!</h2>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>City Rides in Almelo and to the whole netherlands</h3>
+                <p>Fast and affordable rides within the city and to another cities.</p>
+            </div>
+            <div class="service-box">
+                <h3>Airport Transfer (schipol)</h3>
+                <p>On-time drop-offs and pickups from the airport.</p>
+            </div>
+            <div class="service-box">
+                <h3>from any location in twente to the whole netherlands</h3>
+                <p>Comfortable rides for long-distance travel.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section id="booking" class="section">
+        <h2>Book a Taxi or contact me via whats app</h2>
+        <div class="booking-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Pickup Location" required>
+                <input type="text" placeholder="Drop Location" required>
+                <input type="datetime-local" required>
+
+                
+                    
+                    
+                    
+                    
+                
+
+            <button type="submit">Book Now </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>📞 Phone and whats app : +31628765080</p>
+        <p>✉️ Email: sido210289@hotmail.fr</p>
+        <p>📍 Location: prins hendrikstraat, Almelo</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Jasimaly Taxi. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
